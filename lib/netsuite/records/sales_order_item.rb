@@ -6,7 +6,7 @@ module NetSuite
       include Support::Records
       include Namespaces::TranSales
 
-      fields :amount, :bin_numbers, :cost_estimate,
+      fields :alt_sales_amt, :amount, :bin_numbers, :cost_estimate,
         :cost_estimate_type, :defer_rev_rec, :description,
         :expand_item_group, :gift_cert_from, :gift_cert_message,
         :gift_cert_number, :gift_cert_recipient_email,
